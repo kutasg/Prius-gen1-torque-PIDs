@@ -1,0 +1,147 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+Bat Auxiliary Battery Voltage,vlt,01B7,(A)*(20)/(255),0,20,V,84D5F1
+Bat Battery Block 1 Resistance,R01,01CA,(A),0,255,mOhm,84D5F1
+Bat Battery Block 1 Voltage,V01,01A4,(256*A+B)/100,0,20000,mV,84D5F1
+Bat Battery Block 10 Resistance,R10,01CC,(B),0,255,mOhm,84D5F1
+Bat Battery Block 10 Voltage,V10,01A8,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 11 Resistance,R11,01CC,(C),0,255,mOhm,84D5F1
+Bat Battery Block 11 Voltage,V11,01A9,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 12 Resistance,R12,01CC,(D),0,255,mOhm,84D5F1
+Bat Battery Block 12 Voltage,V12,01A9,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 13 Resistance,R13,01CD,(A),0,255,mOhm,84D5F1
+Bat Battery Block 13 Voltage,V13,01AA,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 14 Resistance,R14,01CD,(B),0,255,mOhm,84D5F1
+Bat Battery Block 14 Voltage,V14,01AA,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 15 Resistance,R15,01CD,(C),0,255,mOhm,84D5F1
+Bat Battery Block 15 Voltage,V15,01AB,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 16 Resistance,R16,01CD,(D),0,255,mOhm,84D5F1
+Bat Battery Block 16 Voltage,V16,01AB,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 17 Resistance,R17,01CE,(A),0,255,mOhm,84D5F1
+Bat Battery Block 17 Voltage,V17,01AC,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 18 Resistance,R18,01CE,(B),0,255,mOhm,84D5F1
+Bat Battery Block 18 Voltage,V18,01AC,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 19 Resistance,R19,01CE,(C),0,255,mOhm,84D5F1
+Bat Battery Block 19 Voltage,V19,01AD,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 2 Resistance,R02,01CA,(B),0,255,mOhm,84D5F1
+Bat Battery Block 2 Voltage,V02,01A4,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 3 Resistance,R03,01CA,(C),0,255,mOhm,84D5F1
+Bat Battery Block 3 Voltage,V03,01A5,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 4 Resistance,R04,01CA,(D),0,255,mOhm,84D5F1
+Bat Battery Block 4 Voltage,V04,01A5,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 5 Resistance,R05,01CB,(A),0,255,mOhm,84D5F1
+Bat Battery Block 5 Voltage,V05,01A6,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 6 Resistance,R06,01CB,(B),0,255,mOhm,84D5F1
+Bat Battery Block 6 Voltage,V06,01A6,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 7 Resistance,R07,01CB,(C),0,255,mOhm,84D5F1
+Bat Battery Block 7 Voltage,V07,01A7,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Block 8 Resistance,R08,01CB,(D),0,255,mOhm,84D5F1
+Bat Battery Block 8 Voltage,V08,01A7,(256*C+D)*10,0,20000,mV,84D5F1
+Bat Battery Block 9 Resistance,R09,01CC,(A),0,255,mOhm,84D5F1
+Bat Battery Block 9 Voltage,V09,01A8,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Battery Inhaling Air Temperature,TBi,01B2,(A)+(-40),-40,215,°C,84D5F1
+Bat Battery Inhaling Air Temperature (F),TBi,01B2,(A)*(9)/(5)+(-40),-40,419,degF,84D5F1
+Bat Battery Temperature Sensor 1,TS1,01D0,(A)+(-40),-40,215,°C,84D5F1
+Bat Battery Temperature Sensor 1 (F),TS1,01D0,(A)*(9)/(5)+(-40),-40,419,degF,84D5F1
+Bat Battery Temperature Sensor 2,TS2,01D0,(B)+(-40),-40,215,°C,84D5F1
+Bat Battery Temperature Sensor 2 (F),TS2,01D0,(B)*(9)/(5)+(-40),-40,419,degF,84D5F1
+Bat Battery Temperature Sensor 3,TS3,01D0,(C)+(-40),-40,215,°C,84D5F1
+Bat Battery Temperature Sensor 3 (F),TS3,01D0,(C)*(9)/(5)+(-40),-40,419,degF,84D5F1
+Bat Battery Temperature Sensor 4,TS4,01D1,(A)+(-40),-40,215,°C,84D5F1
+Bat Battery Temperature Sensor 4 (F),TS4,01D1,(A)*(9)/(5)+(-40),-40,419,degF,84D5F1
+Bat DC Inhibit Time,dcI,0199,(256*A+B),0,65535,,84D5F1
+Bat Delta State-of-Charge,dSC,01BC,(A)*(5),0,1275,[ppth],84D5F1
+Bat Highest Battery Block Number,bhi,01AF,(C),0,255,,84D5F1
+Bat Highest Battery Block Voltage,Vhi,01AF,(256*A+B)*10,0,20000,mV,84D5F1
+Bat HV Battery Current,btA,01A3,(-128)+(256*A+B)/(100),-128,528,A,84D5F1
+Bat HV Battery Current (-99.9A to 999A only),bta,01A3,(256*A+B-12800)/(100),-100,100,A,84D5F1
+Bat Ignition Off Time,igH,019B,(256*A+B),0,65535,h,84D5F1
+Bat Lowest Battery Block Number,blo,01AE,(C),0,255,,84D5F1
+Bat Lowest Battery Block Voltage,Vlo,01AE,(256*A+B)*10,0,20000,mV,84D5F1
+Bat Main Battery high time,nhi,01B4,(256*A+B),0,65535,,84D5F1
+Bat Main Battery low time,nlo,0197,(256*A+B),0,65535,,84D5F1
+Bat No. of Battery DTCs,#TC,019C,(256*A+B),0,65535,,84D5F1
+Bat State-of-Charge,soc,0191,(A)/(2),0,125,%,84D5F1
+EN Abnormal Revolution Variation Cyl 1,vc1,01E9,(A),0,255,%,8410F1
+EN Abnormal Revolution Variation Cyl 2,vc2,01E9,(B),0,255,%,8410F1
+EN Abnormal Revolution Variation Cyl 3,vc3,01E9,(C),0,255,%,8410F1
+EN Abnormal Revolution Variation Cyl 4,vc4,01E9,(D),0,255,%,8410F1
+EN Air Flow rate into Engine,MAF,0110,(256*A+B),0,65535,cg/s,8410F1
+EN Calculated Load,LOD,0104,(A)*(20)/(51),0,100,%,8410F1
+EN Engine Coolant Temperature,°cwt,0105,(A)+(-40),-40,130,°C,8410F1
+EN Engine Coolant Temperature (F),°fwt,0105,(A)*(9)/(5)+(-40),-40,419,degF,8410F1
+EN Engine Speed,rpm,010C,(256*A+B)/(4),0,7000,rpm,8410F1
+EN Fuel Injection time for cyl #1,inj,01E4,(A)*(25)/(200),0,32,ms,8410F1
+EN Fuel system status #1,FSS,0103,(A),0,255,,8410F1
+EN Ignition Advance,IGN,010E,(A)*(5)+(-640),-640,635,deg/10{btdc},8410F1
+EN Intake Air Temperature,°cia,010F,(A)+(-40),-40,215,°C,8410F1
+EN Intake Air Temperature (F),°fia,010F,(A)*(9)/(5)+(-40),-40,419,degF,8410F1
+EN Long term fuel % trim—Bank 1,LF1,0107,(A)*(25)/(32)+(-100),-100,100,%,8410F1
+EN MIL illumination,MIL,0101,({A:7}),0,1,,8410F1
+"EN O2 Fuel Trim, Bank1 Sensor1",f11,0114,(B)*(25)/(32)+(-100),-100,100,%,8410F1
+"EN O2 Fuel Trim, Bank1 Sensor2",f12,0115,(B)*(25)/(32)+(-100),-100,100,%,8410F1
+"EN O2 Sensor, Bank1 Sensor1",o11,0114,(A)*(5),0,1275,mV,8410F1
+"EN O2 Sensor, Bank1 Sensor2",o12,0115,(A)*(5),0,1275,mV,8410F1
+EN OBD standards this vehicle conforms to,obd,011C,(A),0,255,,8410F1
+EN Oxygen sensors present,oSP,0113,(A),0,255,,8410F1
+EN Short term fuel % trim-Bank 1,SF1,0106,(A)*(25)/(32)+(-100),-100,100,%,8410F1
+EN Throttle Position,TPS,0111,(A)*(20)/(51),0,100,%,8410F1
+EN Vehicle Speed,kph,010D,(A),0,255,km/h,8410F1
+EN Vehicle Speed (mph),mph,010D,(A)*(15625)/(25146),0,159,[mi_i]/h,8410F1
+HV Accelerator pedal Sensor Main,acM,01D5,(A)/(50),0,5.1,V,8416F1
+HV Accelerator pedal Sensor Sub,acS,01D5,(B)/(50),0,5.1,V,8416F1
+HV Auxiliary Battery Voltage,vLT,01D8,(A)*(20)/(255),0,20,V,8416F1
+HV Battery Cell Temperature Max,Thi,01D6,(SIGNED(A)),-128,127,°C,8416F1
+HV Battery Cell Temperature Max (F),Thi,01D6,(SIGNED(A))*(9)/(5)+(32),-198,261,degF,8416F1
+HV Battery Cell Temperature Min,Tlo,01D6,(SIGNED(B)),-128,127,°C,8416F1
+HV Battery Cell Temperature Min (F),Tlo,01D6,(SIGNED(B))*(9)/(5)+(32),-198,261,degF,8416F1
+HV Discharge Request to adj. SoC,Pd,01CB,(256*A+B)/(10),0,6554,daW,8416F1
+HV Distance traveled with MIL on,DML,0121,(256*A+B),0,65535,km,8416F1
+HV Distance traveled with MIL on (mi),DML,0121,(256*A+B)*(15625)/(25146),0,40722,[mi_i],8416F1
+HV Drive Situation ID,dID,01CC,(A),0,255,,8416F1
+HV Engine Coolant Temperature,°CWT,0105,(A)+(-40),-40,215,°C,8416F1
+HV Engine Coolant Temperature (F),°FWT,0105,(A)*(9)/(5)+(-40),-40,419,degF,8416F1
+HV Engine Speed,RPM,010C,(256*A+B)/(4),0,7000,rpm,8416F1
+HV Engine Speed (similar to RPM) ,rpm,01C7,(256*A+B),0,65535,rpm,8416F1
+HV Generator Current V,M1v,01D0,(SIGNED(A)*256+B),-32768,32767,A,8416F1
+HV Generator Current W,M1w,01D0,(SIGNED(C)*256+D),-32768,32767,A,8416F1
+HV HV Battery Current,BTA,01D2,(SIGNED(A)*256+B)*(2),-100,100,A,8416F1
+HV HV Battery Voltage ,btV,01D1,(A)*(2),200,400,V,8416F1
+HV INFO. Code 1 ,ic1,01AA,(256*A+B),0,65535,,8416F1
+HV INFO. Code 2 ,ic2,01B1,(256*A+B),0,65535,,8416F1
+HV INFO. Code 3 ,ic3,01B7,(256*A+B),0,65535,,8416F1
+HV INFO. Code 4 ,ic4,01BD,(256*A+B),0,65535,,8416F1
+HV INFO. Code 5 ,ic5,01DF,(256*A+B),0,65535,,8416F1
+HV Intake Air Temperature ,°CIA,010F,(A)+(-40),-40,215,°C,8416F1
+HV Intake Air Temperature (F),°FIA,010F,(A)*(9)/(5)+(-40),-40,419,degF,8416F1
+HV Master Cylinder Control Torque ,mcT,01C8,(SIGNED(A)*256+B)*(4),-131072,131068,Nm,8416F1
+HV MG1 Inverter Temperature ,Ti1,01CD,(A)+(-50),-50,205,°C,8416F1
+HV MG1 Inverter Temperature (F),Ti1,01CD,(A)*(9)/(5)+(-58),-58,401,degF,8416F1
+HV MG1 RPM ,M1R,01C4,(SIGNED(A)*256+B),-10000,10000,rpm,8416F1
+HV MG1 Temperature ,TM1,01CE,(A)+(-50),-50,205,°C,8416F1
+HV MG1 Temperature (F),TM1,01CE,(A)*(9)/(5)+(-58),-58,401,degF,8416F1
+HV MG1 Torque ,M1T,01C4,(SIGNED(C)*256+D)/8,-32768,32767,Nm,8416F1
+HV MG2 Inverter Temperature ,Ti2,01CD,(B)+(-50),-50,205,°C,8416F1
+HV MG2 Inverter Temperature (F),Ti2,01CD,(B)*(9)/(5)+(-58),-58,401,degF,8416F1
+HV MG2 RPM ,M2R,01C2,(SIGNED(A)*256+B),-10000,10000,rpm,8416F1
+HV MG2 Temperature ,TM2,01CE,(B)+(-50),-50,205,°C,8416F1
+HV MG2 Temperature (F),TM2,01CE,(B)*(9)/(5)+(-58),-58,401,degF,8416F1
+HV MG2 Torque,M2T,01C2,(SIGNED(C)*256+D)/8,-32768,32767,Nm,8416F1
+HV Motor Current V ,M2v,01CF,(SIGNED(A)*256+B),-100,100,A,8416F1
+HV Motor Current W ,M2w,01CF,(SIGNED(C)*256+D),-100,100,A,8416F1
+HV Regen Brake Execution Torque ,reT,01C3,(A),0,255,Nm,8416F1
+HV Regen Brake Request Torque ,rrT,01C3,(B)*(4),0,1020,Nm,8416F1
+HV Request Engine Power ,Pe,01C5,(256*A+B),0,65535,daW,8416F1
+HV Shift Sensor 1 (position),spM,01D4,(A),0,255,,8416F1
+HV Shift Sensor 2 ,spS,01D3,(256*A+B)/(50),0,6,V,8416F1
+HV State-of-Charge ,soC,01C9,(A)*(100)/(255),0,100,%,8416F1
+HV Target Engine Revolution ,ter,01C6,(256*A+B),0,7000,rpm,8416F1
+HV Vehicle Speed ,KPH,010D,(A),0,255,km/h,8416F1
+HV Vehicle Speed (500.fur_us/wk),kff,010D,(A)*(27559)/(16500),0,426,500.[fur_us]/wk,8416F1
+HV Vehicle Speed (dm/s),m/s,010D,(A)*(25)/(9),0,709,dm/s,8416F1
+HV Vehicle Speed (ft_i/10/s),fps,010D,(A)*(31250)/(3429),0,2324,[ft_i]/10/s,8416F1
+HV Vehicle Speed (mi_i/10/h),mPH,010D,(A)*(33262)/(5353),0,1585,[mi_i]/10/h,8416F1
+HV Vehicle Speed (mph),MPH,010D,(A)*(15625)/(25146),0,159,[mi_i]/h,8416F1
+HV Vehicle Speed (Similar to KPH) ,kph,01D7,(A)*(2),0,510,km/h,8416F1
+HV Vehicle Speed (Similar to MPH),mph,01D7,(A)*(15625)/(12573),0,317,[mi_i]/h,8416F1
+HV WIN Control Power ,Pwi,01CA,(B)*(8)/(5)+(-408),-408,0,hW,8416F1
+HV WOUT Control Power ,Pwo,01CA,(A)*(8)/(5),0,408,hW,8416F1
